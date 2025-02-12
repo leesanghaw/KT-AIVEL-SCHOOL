@@ -179,4 +179,14 @@ public class BoardController {
         model.addAttribute("board", board);
         return "board/update";
     }
+
+    @GetMapping("/game")
+    public String getGame(HttpSession session, Model model) {
+        String loginUserId = (String) session.getAttribute("loginUser");
+        if (loginUserId == null) {
+            return "redirect:/login";
+        }
+        model.addAttribute("user", loginUserId);
+        return "board/game";
+    }
 }
