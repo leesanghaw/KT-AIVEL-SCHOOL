@@ -1,5 +1,6 @@
 # Fiction2Toon
-![thumbnail](docs/thumbnail.jpg)
+<img width="2880" height="2880" alt="image" src="https://github.com/user-attachments/assets/7b0b762c-ab84-4567-9b7e-195fd44140eb" />
+
 
 ## 📝 목차
 - [📌 프로젝트 소개](#-프로젝트-소개)
